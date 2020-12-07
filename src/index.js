@@ -31,5 +31,3 @@ function App(props) {
 }
 
 render(<App cohort="38" />, document.querySelector("#root"));
-
-<App />;
