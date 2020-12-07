@@ -29,12 +29,12 @@ function App(props) {
       <h1>Welcome to React, Web {cohort}</h1>
       <div>{instructor} welcomes you 🥳</div>
 
-      {happy ? <div></div> : <div></div>}
+      {happy ? <div>Very happy</div> : <div>It is Monday</div>}
     </div>
   );
 }
 
 render(
-  <App cohort="38" instructor="Rhiannon" happy={false} />,
+  <App cohort="38" instructor="Rhiannon" happy={true} />,
   document.querySelector("#root")
 );
