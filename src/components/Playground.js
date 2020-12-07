@@ -18,7 +18,7 @@ export default function Playground(props) {
       <div>the count is {count}</div>
       <button
         onClick={(event) => {
-          setCount(100);
+          setCount(count + 1);
         }}
       >
         increase
