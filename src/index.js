@@ -30,6 +30,7 @@ function App(props) {
       <div>{instructor} welcomes you 🥳</div>
 
       {happy ? <div>Very happy</div> : <div>It is Monday</div>}
+      <div>It is week {week}</div>
     </div>
   );
 }
