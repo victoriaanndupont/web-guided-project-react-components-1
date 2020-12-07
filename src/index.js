@@ -30,4 +30,6 @@ function App(props) {
   );
 }
 
-render(<App cohort="37" />, document.querySelector("#root"));
+render(<App cohort="38" />, document.querySelector("#root"));
+
+<App />;
