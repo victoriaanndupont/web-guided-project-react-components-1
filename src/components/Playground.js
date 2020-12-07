@@ -13,6 +13,11 @@ export default function Playground(props) {
   // const theArray = useState(0);
   // const count = theArray[0];
   // const setCount = theArray[1]
+
+  if (spinnerOn) {
+    return <div className="container">Loading...</div>;
+  }
+
   return (
     <div className="container">
       <h3>Playground for Web {props.cohort}</h3>
