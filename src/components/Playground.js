@@ -15,7 +15,12 @@ export default function Playground(props) {
   // const setCount = theArray[1]
 
   if (spinnerOn) {
-    return <div className="container">Loading...</div>;
+    return (
+      <div className="container">
+        Please wait. Loading...
+        <button>turn spinner off</button>
+      </div>
+    );
   }
 
   return (
