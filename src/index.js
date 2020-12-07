@@ -36,6 +36,6 @@ function App(props) {
 }
 
 render(
-  <App cohort="38" instructor="Rhiannon" happy={true} />,
+  <App cohort="38" instructor="Rhiannon" happy={true} week={2} />,
   document.querySelector("#root")
 );
