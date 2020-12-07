@@ -6,6 +6,9 @@ export default function Playground(props) {
   // it is a function that takes that desired initial state
   // it returns an array with 2 things: the state itself, and state changer function
   // NO declaring variables with 'let' to hold state => the useState hook takes its place
+
+  const [count, setCount] = useState(0);
+
   return (
     <div className="container">
       <h3>Playground for Web {props.cohort}</h3>
