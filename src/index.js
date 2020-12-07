@@ -22,6 +22,8 @@ import { render } from "react-dom";
 */
 
 function App(props) {
+  const { cohort, instructor } = props;
+
   return (
     <div className="container">
       <h1>Welcome to React, Web {props.cohort}</h1>
