@@ -22,13 +22,12 @@ import { render } from "react-dom";
 */
 
 function App(props) {
-  return null;
-  // return (
-  //   <div className="container">
-  //     <h1>Welcome to React, Web {props.cohort}</h1>
-  //     <div>{props.instructor} welcomes you 🥳</div>
-  //   </div>
-  // );
+  return (
+    <div className="container">
+      <h1>Welcome to React, Web {props.cohort}</h1>
+      <div>{props.instructor} welcomes you 🥳</div>
+    </div>
+  );
 }
 
 render(
