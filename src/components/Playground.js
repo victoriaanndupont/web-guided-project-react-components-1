@@ -1,3 +1,5 @@
+import React from "react";
+
 /*
 💥💥💥 Rules of STATE 💥💥💥
   - We create a slice of state like this: `const [healthPoints, setHealthPoints] = useState(100)`
