@@ -1,5 +1,9 @@
 import React from "react";
 
+export default function playground(props) {
+  return "playground";
+}
+
 /*
 💥💥💥 Rules of STATE 💥💥💥
   - We create a slice of state like this: `const [healthPoints, setHealthPoints] = useState(100)`
