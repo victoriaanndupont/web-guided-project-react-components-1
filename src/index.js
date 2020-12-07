@@ -28,6 +28,8 @@ function App(props) {
     <div className="container">
       <h1>Welcome to React, Web {cohort}</h1>
       <div>{instructor} welcomes you 🥳</div>
+
+      {happy ? <div></div> : <div></div>}
     </div>
   );
 }
