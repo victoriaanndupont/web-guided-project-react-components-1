@@ -1,7 +1,8 @@
 import React from "react";
 
 export default function Playground(props) {
-  return "playground for " + props.cohort;
+  // return "playground for " + props.cohort;
+  return <div className="container"></div>;
 }
 
 /*
