@@ -9,6 +9,7 @@ export default function Playground(props) {
 
   const [count, setCount] = useState(0);
   const [spinnerOn, setSpinnerOn] = useState(false);
+  const [weapon, setWeapon] = useState("scissors");
   // this is the equivalent of writing:
   // const theArray = useState(0);
   // const count = theArray[0];
