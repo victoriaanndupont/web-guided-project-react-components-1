@@ -22,7 +22,7 @@ import { render } from "react-dom";
 */
 
 function App(props) {
-  const { cohort, instructor, happy } = props;
+  const { cohort, instructor, happy, week } = props;
 
   return (
     <div className="container">
