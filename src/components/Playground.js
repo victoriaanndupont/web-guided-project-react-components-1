@@ -8,6 +8,7 @@ export default function Playground(props) {
   // NO declaring variables with 'let' to hold state => the useState hook takes its place
 
   const [count, setCount] = useState(0);
+  const [spinnerOn, setSpinnerOn] = useState(true);
   // this is the equivalent of writing:
   // const theArray = useState(0);
   // const count = theArray[0];
