@@ -8,7 +8,10 @@ export default function Playground(props) {
   // NO declaring variables with 'let' to hold state => the useState hook takes its place
 
   const [count, setCount] = useState(0);
-
+  // this is the equivalent of writing:
+  // const theArray = useState(0);
+  // const count = theArray[0];
+  // const setCount = theArray[1]
   return (
     <div className="container">
       <h3>Playground for Web {props.cohort}</h3>
