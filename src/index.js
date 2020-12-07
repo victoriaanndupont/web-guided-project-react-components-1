@@ -22,7 +22,7 @@ import { render } from "react-dom";
 */
 
 function App(props) {
-  const { cohort, instructor } = props;
+  const { cohort, instructor, happy } = props;
 
   return (
     <div className="container">
@@ -33,6 +33,6 @@ function App(props) {
 }
 
 render(
-  <App cohort="38" instructor="Rhiannon" />,
+  <App cohort="38" instructor="Rhiannon" happy={false} />,
   document.querySelector("#root")
 );
