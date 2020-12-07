@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function playground(props) {
+export default function Playground(props) {
   return "playground";
 }
 
